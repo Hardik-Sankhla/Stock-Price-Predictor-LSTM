@@ -1,39 +1,12 @@
+__pycache__/
+*.py[cod]
+.env
+.DS_Store
+.vscode/
+.idea/
+*.log
+*.csv
+*.h5
 /config.local
 /tmp
 /cache
-# Python
-*.pyc
-*.pyo
-__pycache__/
-*.pyd
-
-# Virtual environments
-venv/
-OllamaVenv/
-
-# Jupyter Notebooks
-.ipynb_checkpoints/
-
-# Data and models (for DVC)
-data/
-models/
-
-# Log files
-*.log
-
-# System files
-.DS_Store
-Thumbs.db
-
-# IDEs
-.vscode/
-.idea/
-*.sublime-workspace
-*.sublime-project
-
-# Environment variables
-.env
-
-# MLOps tools
-.dvc/
-*.dvc
